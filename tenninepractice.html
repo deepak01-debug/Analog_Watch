@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ten/NineJsPractice</title>
+
+</head>
+
+<style>
+    /* p {
+        text-align: center;
+        border: 1px solid #000;
+        background-color: hsl(125, 99%, 45%);
+        color: #ffff;
+        padding: 20px;
+        font-weight: bold;
+    } */
+    /* img {
+        float: right;
+    } */
+</style>
+
+<body>
+
+    <!-- <p id="name1"></p>
+    <p id="name2"></p> -->
+    <!-- <p class="" id="id"></p>
+    <img id="myImage" src="./bulb off.jpeg" style="width:400px">
+
+    <button onclick="document.getElementById('myImage').src='onbulb.jpeg'">Turn on the light</button>
+    <button onclick="document.getElementById('myImage').src='bulb off.jpeg'">Turn off the light</button>     -->
+    <!-- <button type="button" onclick="myfunc()">Click Here</button> -->
+
+<!-- to print a PAge -->
+    <!-- <button type="button" onclick="window.print()" >Print thish page</button> -->
+</body>
+
+<script>
+
+    // getElementById("") Use
+
+    // document.getElementById("name1").innerHTML = "rajveer Singh" + "<br>";
+    // document.getElementById("name2").innerHTML = "rajveer Singh" + "<br>";
+    // document.getElementById("id").innerHTML="hello Welcome";
+    // use of Console
+    //   console.log("string");
+
+    // function myfunc(){
+    //     console.log("you are lucky!");
+    // }
+    // use of Document.Write
+    // document.write(3+2);
+
+    // Use of Document.alert
+
+    // window.alert(2+1);
+
+    // comment in JavaScript
+// document.write("Hello Rajveer <br>");
+// document.write("Hello Kushwah ji");
+// document.write("<br>Hello Deepak");
+// document.write(" <br> Hello Raj");
+
+// use of js Automatically Variable
+// x=7;
+// y=2;
+// z=x+y;
+// console.log(z);
+
+// Use of var Variable
+
+// var a=12;
+// console.log(a);
+
+//  js var variable has a global Scope
+
+// {
+//     var b=11;
+//     var c=111;
+// }
+
+// document.write(b+c,"<br>"); 
+// document.write(b,"<br>");
+// document.write(a);
+
+// Use of let Variable
+
+// let a=111;
+// console.log(a);
+
+// // js let variable has a local Scope
+
+// {
+//     let b=13;
+//     // console.log(b);
+    
+// }
+// console.log(b); here b is not define because let b is under in a local scope
+
+// Use of  const variable in js
+
+// const a=12;
+// const b=11;
+// let c=a+b;
+// console.log(c);
+
+// Use of Dollar Sign($) in Js 
+// let $$=122;
+// let $=1111;
+
+// console.log($$+$);
+
+// Reclaring variables
+// var x=11;
+// var is allowed anywhere in a program
+// var x=2;
+// document.write(x);
+
+//A variable defined with the const keyword cannot be reassigned:
+
+// const a=11111;
+// a=111111;
+// console.log(a); ye yaha par type Error dega kyuki yaha a ek const variable hai
+
+// constant Arrays
+// const cars = ["Saab", "Volvo", "BMW"];
+// console.log(cars[0]);
+
+// here we can change the elements of an arrays
+
+// cars[0]="swift";
+// console.log(cars[0]);
+
+// Add a elements i thish arrays
+
+// cars.push("thar");
+// console.log(cars);
+
+// Js Operators
+
+// JS Assignment oprators(=,+=,-=,*=,/=,%=):
+
+// let a=10;
+// use of = oprator
+// a=1;
+// use of +=
+// a+=1;
+// use of -=
+// a-=1;
+// use of/=
+// a/=2;
+// use of %=
+// a%=2;
+// use of **=
+// a**=2;
+// use of *=
+// a*=3;
+
+// console.log(a);
+
+// JavaScript Arithmetic Operators
+// (+,-,*,/,%,**)
+
+// let a=122;
+// console.log(a+2);
+// console.log(a-2);
+// console.log(a**2);
+// console.log(a*2);
+// console.log(a/2);
+// console.log(a%2);
+
+// JavaScript Comparison Operators(==,===,>,<,!=,!==,<=,>=):
+
+// let a=100;
+// let b=111;
+
+// console.log(a<b);
+// console.log(a>b);
+// console.log(a===b);
+// console.log(a==b);
+// console.log(a!==b);
+// console.log(a!=b);
+// console.log(a>=b);
+// console.log(a<=b);
+
+// JavaScript String Comparison
+
+
+// let text1 = "A";
+// let text2 = "B";
+// let result = text1 < text2;
+// console.log(result);
+
+// JavaScript String Addition
+// Adding Strings and Numbers
+// let a=11;
+// let b="raj";
+// console.log(a+" "+b);
+
+// using Assinged oprator
+// let text1 = "my name is";
+// text1 += "  Rajveer Singh";
+// console.log(text1);
+
+// JavaScript Data Types
+// JavaScript has 8 Datatypes
+// String
+// Number
+// Bigint
+// Boolean
+// Undefined
+// Null
+// Symbol
+// Object
+
+// 1. String
+// let a="rajveer singh";
+// console.log(typeof(a));
+
+// 2.Number
+// let a=10;
+// console.log(typeof(a));
+
+// 3.BigInt
+// let a=BigInt(12332354644368747897987598376537469837498679837498679843798768479837964398699879865793769837687327632078386783756885378357384848383478);
+// console.log(typeof(a));
+
+// 4.Boolean
+// const a=true;
+// console.log(typeof(a));
+
+//  5. Undefine
+// let a;
+// console.log(typeof(a));
+
+// 6.Object
+// const fruits={apple:"Apple",grapes:"Grapes"}
+// console.log(typeof(fruits)); type of thish array
+// console.log(fruits); print an object
+// console.log(fruits.apple); print first element of an object
+
+// JavaScript Functions
+
+// 1.
+// Function to compute the product of A and B
+// function myFunction(A, B) {
+//   return A ** B;
+// }
+
+// console.log(myFunction(3,2));
+
+// 2.
+// function myfunc(a,b){
+//     console.log(a+b);
+// }
+// myfunc(11,12);
+
+
+
+</script>
+
+</html>
